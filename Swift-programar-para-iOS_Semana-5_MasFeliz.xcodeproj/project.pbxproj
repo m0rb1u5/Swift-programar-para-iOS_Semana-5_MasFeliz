@@ -15,6 +15,7 @@
 		942832491D86827300D3F2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942832471D86827300D3F2F9 /* LaunchScreen.storyboard */; };
 		942832541D86827300D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942832531D86827300D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizTests.swift */; };
 		9428325F1D86827400D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9428325E1D86827400D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift */; };
+		9441BE3B1D869977009C2AE7 /* ColoresStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9441BE3A1D869977009C2AE7 /* ColoresStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		9428325E1D86827400D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift; sourceTree = "<group>"; };
 		942832601D86827400D3F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9428326C1D86879D00D3F2F9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		9441BE3A1D869977009C2AE7 /* ColoresStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoresStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				9428323B1D86827200D3F2F9 /* AppDelegate.swift */,
 				9428323D1D86827200D3F2F9 /* ViewController.swift */,
+				9441BE3A1D869977009C2AE7 /* ColoresStruct.swift */,
 				9428323F1D86827200D3F2F9 /* Main.storyboard */,
 				942832451D86827300D3F2F9 /* Assets.xcassets */,
 				942832471D86827300D3F2F9 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 			files = (
 				9428323E1D86827200D3F2F9 /* ViewController.swift in Sources */,
 				9428323C1D86827200D3F2F9 /* AppDelegate.swift in Sources */,
+				9441BE3B1D869977009C2AE7 /* ColoresStruct.swift in Sources */,
 				942832441D86827200D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,6 +501,7 @@
 				942832651D86827400D3F2F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		942832661D86827400D3F2F9 /* Build configuration list for PBXNativeTarget "Swift-programar-para-iOS_Semana-5_MasFelizTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +510,7 @@
 				942832681D86827400D3F2F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		942832691D86827400D3F2F9 /* Build configuration list for PBXNativeTarget "Swift-programar-para-iOS_Semana-5_MasFelizUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				9428326B1D86827400D3F2F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
