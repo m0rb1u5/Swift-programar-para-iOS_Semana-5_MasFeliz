@@ -25,8 +25,8 @@
                                     <action selector="dameUnMensajePositivo" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZsT-nU-xho"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Esto será un mensaje positivo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGv-wD-KRE">
-                                <rect key="frame" x="16" y="208" width="215" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Esto será un mensaje positivo" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGv-wD-KRE">
+                                <rect key="frame" x="16" y="208" width="215" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="215" id="Mao-uR-Dxo"/>
                                 </constraints>
