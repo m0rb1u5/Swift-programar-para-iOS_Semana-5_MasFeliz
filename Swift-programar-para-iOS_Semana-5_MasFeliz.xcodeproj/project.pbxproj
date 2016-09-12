@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9428323C1D86827200D3F2F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9428323B1D86827200D3F2F9 /* AppDelegate.swift */; };
+		9428323E1D86827200D3F2F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9428323D1D86827200D3F2F9 /* ViewController.swift */; };
+		942832411D86827200D3F2F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9428323F1D86827200D3F2F9 /* Main.storyboard */; };
+		942832441D86827200D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 942832421D86827200D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodeld */; };
+		942832461D86827300D3F2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942832451D86827300D3F2F9 /* Assets.xcassets */; };
+		942832491D86827300D3F2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942832471D86827300D3F2F9 /* LaunchScreen.storyboard */; };
+		942832541D86827300D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942832531D86827300D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizTests.swift */; };
+		9428325F1D86827400D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9428325E1D86827400D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		942832501D86827300D3F2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942832301D86827100D3F2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942832371D86827100D3F2F9;
+			remoteInfo = "Swift-programar-para-iOS_Semana-5_MasFeliz";
+		};
+		9428325B1D86827400D3F2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942832301D86827100D3F2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942832371D86827100D3F2F9;
+			remoteInfo = "Swift-programar-para-iOS_Semana-5_MasFeliz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		942832381D86827200D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFeliz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-programar-para-iOS_Semana-5_MasFeliz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9428323B1D86827200D3F2F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9428323D1D86827200D3F2F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		942832401D86827200D3F2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		942832431D86827200D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodel; sourceTree = "<group>"; };
+		942832451D86827300D3F2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942832481D86827300D3F2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9428324A1D86827300D3F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9428324F1D86827300D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-programar-para-iOS_Semana-5_MasFelizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942832531D86827300D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_programar_para_iOS_Semana_5_MasFelizTests.swift; sourceTree = "<group>"; };
+		942832551D86827300D3F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9428325A1D86827400D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-programar-para-iOS_Semana-5_MasFelizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9428325E1D86827400D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift; sourceTree = "<group>"; };
+		942832601D86827400D3F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942832351D86827100D3F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9428324C1D86827300D3F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942832571D86827300D3F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9428322F1D86827100D3F2F9 = {
+			isa = PBXGroup;
+			children = (
+				9428323A1D86827200D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFeliz */,
+				942832521D86827300D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizTests */,
+				9428325D1D86827400D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizUITests */,
+				942832391D86827200D3F2F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		942832391D86827200D3F2F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942832381D86827200D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFeliz.app */,
+				9428324F1D86827300D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizTests.xctest */,
+				9428325A1D86827400D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9428323A1D86827200D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFeliz */ = {
+			isa = PBXGroup;
+			children = (
+				9428323B1D86827200D3F2F9 /* AppDelegate.swift */,
+				9428323D1D86827200D3F2F9 /* ViewController.swift */,
+				9428323F1D86827200D3F2F9 /* Main.storyboard */,
+				942832451D86827300D3F2F9 /* Assets.xcassets */,
+				942832471D86827300D3F2F9 /* LaunchScreen.storyboard */,
+				9428324A1D86827300D3F2F9 /* Info.plist */,
+				942832421D86827200D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodeld */,
+			);
+			path = "Swift-programar-para-iOS_Semana-5_MasFeliz";
+			sourceTree = "<group>";
+		};
+		942832521D86827300D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizTests */ = {
+			isa = PBXGroup;
+			children = (
+				942832531D86827300D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizTests.swift */,
+				942832551D86827300D3F2F9 /* Info.plist */,
+			);
+			path = "Swift-programar-para-iOS_Semana-5_MasFelizTests";
+			sourceTree = "<group>";
+		};
+		9428325D1D86827400D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9428325E1D86827400D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift */,
+				942832601D86827400D3F2F9 /* Info.plist */,
+			);
+			path = "Swift-programar-para-iOS_Semana-5_MasFelizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942832371D86827100D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFeliz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942832631D86827400D3F2F9 /* Build configuration list for PBXNativeTarget "Swift-programar-para-iOS_Semana-5_MasFeliz" */;
+			buildPhases = (
+				942832341D86827100D3F2F9 /* Sources */,
+				942832351D86827100D3F2F9 /* Frameworks */,
+				942832361D86827100D3F2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-programar-para-iOS_Semana-5_MasFeliz";
+			productName = "Swift-programar-para-iOS_Semana-5_MasFeliz";
+			productReference = 942832381D86827200D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFeliz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9428324E1D86827300D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942832661D86827400D3F2F9 /* Build configuration list for PBXNativeTarget "Swift-programar-para-iOS_Semana-5_MasFelizTests" */;
+			buildPhases = (
+				9428324B1D86827300D3F2F9 /* Sources */,
+				9428324C1D86827300D3F2F9 /* Frameworks */,
+				9428324D1D86827300D3F2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942832511D86827300D3F2F9 /* PBXTargetDependency */,
+			);
+			name = "Swift-programar-para-iOS_Semana-5_MasFelizTests";
+			productName = "Swift-programar-para-iOS_Semana-5_MasFelizTests";
+			productReference = 9428324F1D86827300D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		942832591D86827300D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942832691D86827400D3F2F9 /* Build configuration list for PBXNativeTarget "Swift-programar-para-iOS_Semana-5_MasFelizUITests" */;
+			buildPhases = (
+				942832561D86827300D3F2F9 /* Sources */,
+				942832571D86827300D3F2F9 /* Frameworks */,
+				942832581D86827300D3F2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9428325C1D86827400D3F2F9 /* PBXTargetDependency */,
+			);
+			name = "Swift-programar-para-iOS_Semana-5_MasFelizUITests";
+			productName = "Swift-programar-para-iOS_Semana-5_MasFelizUITests";
+			productReference = 9428325A1D86827400D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942832301D86827100D3F2F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Juan Carlos Carbajal Ipenza";
+				TargetAttributes = {
+					942832371D86827100D3F2F9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 85667CV2UC;
+					};
+					9428324E1D86827300D3F2F9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 85667CV2UC;
+						TestTargetID = 942832371D86827100D3F2F9;
+					};
+					942832591D86827300D3F2F9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 85667CV2UC;
+						TestTargetID = 942832371D86827100D3F2F9;
+					};
+				};
+			};
+			buildConfigurationList = 942832331D86827100D3F2F9 /* Build configuration list for PBXProject "Swift-programar-para-iOS_Semana-5_MasFeliz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9428322F1D86827100D3F2F9;
+			productRefGroup = 942832391D86827200D3F2F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942832371D86827100D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFeliz */,
+				9428324E1D86827300D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizTests */,
+				942832591D86827300D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942832361D86827100D3F2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942832491D86827300D3F2F9 /* LaunchScreen.storyboard in Resources */,
+				942832461D86827300D3F2F9 /* Assets.xcassets in Resources */,
+				942832411D86827200D3F2F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9428324D1D86827300D3F2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942832581D86827300D3F2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942832341D86827100D3F2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9428323E1D86827200D3F2F9 /* ViewController.swift in Sources */,
+				9428323C1D86827200D3F2F9 /* AppDelegate.swift in Sources */,
+				942832441D86827200D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9428324B1D86827300D3F2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942832541D86827300D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942832561D86827300D3F2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9428325F1D86827400D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		942832511D86827300D3F2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942832371D86827100D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFeliz */;
+			targetProxy = 942832501D86827300D3F2F9 /* PBXContainerItemProxy */;
+		};
+		9428325C1D86827400D3F2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942832371D86827100D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFeliz */;
+			targetProxy = 9428325B1D86827400D3F2F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9428323F1D86827200D3F2F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942832401D86827200D3F2F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		942832471D86827300D3F2F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942832481D86827300D3F2F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		942832611D86827400D3F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		942832621D86827400D3F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942832641D86827400D3F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-programar-para-iOS_Semana-5_MasFeliz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Swift-programar-para-iOS-Semana-5-MasFeliz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		942832651D86827400D3F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-programar-para-iOS_Semana-5_MasFeliz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Swift-programar-para-iOS-Semana-5-MasFeliz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		942832671D86827400D3F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift-programar-para-iOS_Semana-5_MasFelizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Swift-programar-para-iOS-Semana-5-MasFelizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-programar-para-iOS_Semana-5_MasFeliz.app/Swift-programar-para-iOS_Semana-5_MasFeliz";
+			};
+			name = Debug;
+		};
+		942832681D86827400D3F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift-programar-para-iOS_Semana-5_MasFelizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Swift-programar-para-iOS-Semana-5-MasFelizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-programar-para-iOS_Semana-5_MasFeliz.app/Swift-programar-para-iOS_Semana-5_MasFeliz";
+			};
+			name = Release;
+		};
+		9428326A1D86827400D3F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift-programar-para-iOS_Semana-5_MasFelizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Swift-programar-para-iOS-Semana-5-MasFelizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift-programar-para-iOS_Semana-5_MasFeliz";
+			};
+			name = Debug;
+		};
+		9428326B1D86827400D3F2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift-programar-para-iOS_Semana-5_MasFelizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0rb1u5.Swift-programar-para-iOS-Semana-5-MasFelizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift-programar-para-iOS_Semana-5_MasFeliz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942832331D86827100D3F2F9 /* Build configuration list for PBXProject "Swift-programar-para-iOS_Semana-5_MasFeliz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942832611D86827400D3F2F9 /* Debug */,
+				942832621D86827400D3F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942832631D86827400D3F2F9 /* Build configuration list for PBXNativeTarget "Swift-programar-para-iOS_Semana-5_MasFeliz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942832641D86827400D3F2F9 /* Debug */,
+				942832651D86827400D3F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		942832661D86827400D3F2F9 /* Build configuration list for PBXNativeTarget "Swift-programar-para-iOS_Semana-5_MasFelizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942832671D86827400D3F2F9 /* Debug */,
+				942832681D86827400D3F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		942832691D86827400D3F2F9 /* Build configuration list for PBXNativeTarget "Swift-programar-para-iOS_Semana-5_MasFelizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9428326A1D86827400D3F2F9 /* Debug */,
+				9428326B1D86827400D3F2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		942832421D86827200D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				942832431D86827200D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodel */,
+			);
+			currentVersion = 942832431D86827200D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodel */;
+			path = Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 942832301D86827100D3F2F9 /* Project object */;
+}
