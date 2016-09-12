@@ -49,6 +49,7 @@
 		9428325A1D86827400D3F2F9 /* Swift-programar-para-iOS_Semana-5_MasFelizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-programar-para-iOS_Semana-5_MasFelizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9428325E1D86827400D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_programar_para_iOS_Semana_5_MasFelizUITests.swift; sourceTree = "<group>"; };
 		942832601D86827400D3F2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9428326C1D86879D00D3F2F9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 				942832471D86827300D3F2F9 /* LaunchScreen.storyboard */,
 				9428324A1D86827300D3F2F9 /* Info.plist */,
 				942832421D86827200D3F2F9 /* Swift_programar_para_iOS_Semana_5_MasFeliz.xcdatamodeld */,
+				9428326D1D86885600D3F2F9 /* playgrounds */,
 			);
 			path = "Swift-programar-para-iOS_Semana-5_MasFeliz";
 			sourceTree = "<group>";
@@ -126,6 +128,14 @@
 				942832601D86827400D3F2F9 /* Info.plist */,
 			);
 			path = "Swift-programar-para-iOS_Semana-5_MasFelizUITests";
+			sourceTree = "<group>";
+		};
+		9428326D1D86885600D3F2F9 /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				9428326C1D86879D00D3F2F9 /* MyPlayground.playground */,
+			);
+			name = playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
