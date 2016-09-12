@@ -18,8 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tn-Mo-BsF">
-                                <rect key="frame" x="60" y="110" width="200" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tn-Mo-BsF">
+                                <rect key="frame" x="56" y="110" width="200" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="D1H-Sr-582"/>
+                                    <constraint firstAttribute="width" constant="200" id="ruu-5d-eaa"/>
+                                </constraints>
                                 <state key="normal" title="Siguiente Mensaje positivo"/>
                                 <connections>
                                     <action selector="dameUnMensajePositivo" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZsT-nU-xho"/>
@@ -35,10 +40,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.31372549019607843" green="0.6470588235294118" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.31372549020000001" green="0.64705882349999999" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="FGv-wD-KRE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="188" id="9lf-xd-Emg"/>
+                            <constraint firstItem="7Tn-Mo-BsF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="frT-69-v8w"/>
                             <constraint firstAttribute="leadingMargin" secondItem="FGv-wD-KRE" secondAttribute="leading" id="ots-oh-FQB"/>
+                            <constraint firstItem="7Tn-Mo-BsF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="90" id="x2b-2R-Z1a"/>
                         </constraints>
                     </view>
                     <connections>
