@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var mensajePositivo: UILabel!
+    let colores = Colores()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +24,9 @@ class ViewController: UIViewController {
 
     @IBAction func dameUnMensajePositivo() {
         mensajePositivo.text = "Hoy es un día muy bonito!!!"
+        let colorAleatorio = colores.regresaColorAleatorio()
+        view.backgroundColor = colorAleatorio
+        view.tintColor = colorAleatorio
     }
 
 }
